@@ -15,4 +15,4 @@ Get-MsolUser -SearchString "<first or last name>"
 Set-MsolUserPrincipalName -UserPrincipalName old.upn@email.com -NewUserPrincipalName newcorrect.upn@email.com
 
 # Lastly, wait for sync, or manually run sync from syncserver
-start-adsyncsynccycle -policytype Delta
+start-adsyncsynccycle -policytype Deltadfsdfsd
